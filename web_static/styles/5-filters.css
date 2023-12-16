@@ -29,15 +29,11 @@ h4 {
     font-size: 14px;
 }
 .locations{
-    padding-top: 10px;
-    line-height: 0.2;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
 }
 .amenities{
-    padding-top: 10px;
-    line-height: 0.2;
     height: 100%;
     width: 25%;
 }
