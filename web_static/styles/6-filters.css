@@ -28,16 +28,79 @@ h4 {
     font-weight: 400;
     font-size: 14px;
 }
-.locations{
+.locations {
+    position: relative;
     padding-top: 10px;
     line-height: 0.2;
     height: 100%;
-    width: 25%;
+    width: 40%;
     border-right: 1px solid #DDDDDD;
 }
-.amenities{
+
+.locations .popover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+.locations h2 {
+    font-size: 16px;
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.locations ul {
+    list-style: none;
+    padding: 15;
+    margin: 0;
+}
+
+.locations ul li {
+    padding: 10px;
+}
+
+.amenities {
+    position: relative;
+    padding-left: 30px;
     padding-top: 10px;
     line-height: 0.2;
     height: 100%;
-    width: 25%;
+    width: 30%;
 }
+
+.amenities .popover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.amenities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amenities ul li {
+    padding: 10px;
+    
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+
